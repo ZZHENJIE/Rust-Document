@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Rust学习笔记</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="icon" href="Docs/Image/Rust.svg" type="image/x-icon">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+        repo: 'https://github.com/ZZHENJIE/JieEngine',
+        auto2top: true,
+        onlyCover: false,
+        subMaxLevel: 5,
+        basePath: 'Docs/',
+        coverpage: 'Home.md',
+        loadSidebar: 'Sidebar.md',
+        search: {
+          placeholder:'搜索👀',
+          noData: '找不到结果😔'
+        },
+        copyCode: {
+          buttonText : '复制到粘贴板😊',
+          errorText  : '复制出错👿',
+          successText: '已复制到粘贴板🥰'
+        }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rust.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+</body>
+</html>
